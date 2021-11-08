@@ -1,0 +1,43 @@
+header{margin: 20px;}
+header > div > div > nav > ul{
+    flex-wrap: wrap;
+}
+header > div > div > nav > ul >li{
+    width: 80px;
+}
+
+.about-box ul li{width: 100%;}
+
+
+.about-detail{
+    flex-direction: column;
+}
+
+.project-detail{    
+    flex-direction: column;
+    display: inline-block;
+}
+.img-box{
+    background: #fff;
+    line-height: initial;
+}
+
+.board{
+    font-size: 15px;
+}
+.board-btn{margin-top: 50px;}
+
+.pop-layer{
+    width: 80%;
+}
+
+
+.pop-title{
+    font-size: 20px;
+    line-height: 60px;
+}
+.pop-title a {
+    right:20px;
+    top:0px;
+    
+}

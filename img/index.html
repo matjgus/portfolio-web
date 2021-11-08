@@ -1,0 +1,147 @@
+<?php include('./page/header.html');?>
+
+
+<div class="main-visual">
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./img/isquat.PNG"></div>
+          <div class="swiper-slide"><img src="./img/micro.PNG"></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+  
+
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+
+</div>
+
+<div>
+    <div class="about-box">
+        <div class="cat-size">
+            <h1>ABOUT</h1>
+        </div>
+
+        <ul class="about-detail">
+            <li>
+                <div>
+                    <h5><i class="fas fa-graduation-cap"></i> 학력</h5>
+                    <i>2013.03~2016.02</i>
+                    <p>와룡고등학교</p>
+                    <i>2016.03~2021.02</i>
+                    <p>영남대학교 정보통신공학과</p>
+                    <i>2021.09~2022.02</i>
+                    <p>휴스타 혁신아카데미 4기 수료</p>
+                </div>
+                
+            </li>
+            <li>
+                <div>
+                <h5><i class="fas fa-book"></i> 자격증</h5>
+                <p>정보처리기사</p>
+            </div>
+            </li>
+            <li>
+                <div>
+                <h5><i class="fas fa-address-card"></i> 프로젝트</h5>
+                <i>2019.12~2020.01</i>
+                <p>스마트폰을 활용한 일산화탄소 경보기 개발</p>
+                <i>2021.09</i>
+                <p>Jetsonnano 활용 - 스쿼트 개수측정 서비스 개발</p>
+                <i>2021.10</i>
+                <p>Android studio 활용 - 버스킹 어플리케이션 개발</p>         
+            </div>   
+            </li>
+            <li>
+                <div>
+                <h5><i class="fas fa-award"></i> 수상경력</h5>
+                <i>2019.11.30</i>
+                <p>DCU SW 아이디어톤 입상</p>
+                <i>2020.01.10</i>
+                <p>기계IT대학 IoT 경진대회 최우수상</p>
+            </div>
+            </li>
+
+        </ul>
+
+            
+        </div>
+    </div>
+
+    <div class="skill-box">
+        <div class="cat-size">
+            <h2>SKILL</h2>
+        </div>
+        <ul>
+            <li>
+                <div>
+
+                </div>
+            </li>
+        </ul>
+        <div>
+            <p>안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 안녕하세요 </p>
+        </div>
+    </div>
+
+    <div class="project-box">
+        <div class="cat-size">
+            <h2>PROJECT</h2>
+        </div>
+        <div>
+            <ul class="project-detail">
+                <li>
+                    <div>
+                        <div class="img-box">
+                            <img src="./img/co_project.jpg">
+                        </div>
+                        <div>
+                            <h5>캡스톤 디자인</h5>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="img-box">
+                            <img src="./img/jetson.jpg">
+                        </div>
+                        <div><h5>AI 프로젝트</h5></div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="img-box">
+                            <img src="./img/app.jpg">
+                        </div>
+                        <div><h5>App 프로젝트</h5></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+<?php include('./page/footer.html');?>

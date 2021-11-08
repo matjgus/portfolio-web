@@ -1,0 +1,58 @@
+header{margin: 20px;}
+header > div{
+    flex-direction: column;
+
+}
+header .top-hd{
+    letter-spacing: 1px;
+}
+header .top-hd > div > a{
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+header > div > div > nav {
+    margin: 0px;
+}
+header > div > div > nav > ul {
+    margin: 20px;
+}
+
+.about-box ul li{width: 100%;}
+
+
+.about-detail{
+    flex-direction: column;
+}
+
+.project-detail{    
+    flex-direction: column;
+}
+.img-box{
+    background: #fff;
+    line-height: initial;
+}
+
+.board{
+    font-size: 15px;
+}
+.board-btn{margin-top: 50px;}
+
+.dimlayer{position:fixed;}
+.pop-layer{
+    position:fixed;
+    width: 90%;
+    height:90%;
+}
+.pop-title{
+    font-size: 20px;
+    line-height: 60px;
+}
+.pop-title a {
+    right:20px;
+    top:0px;
+    
+}
+
+.pop-txt {
+    width: auto;
+}
