@@ -12,6 +12,10 @@ header > div > div > nav > ul >li{
 .about-detail{
     flex-direction: column;
 }
+.skill-detail li{
+    margin: 15px;
+    width: 33%;
+}
 
 .project-detail{    
     flex-direction: column;

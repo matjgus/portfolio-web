@@ -17,6 +17,7 @@ header .top-hd{
     height: 100px;
     letter-spacing: 5px;
     justify-content: space-between;
+    font-size: 15px;
 }
 header .top-hd > div > a{
     font-size: 40px;
@@ -48,18 +49,32 @@ nav.active{
   }
 
 footer .btm-ft{
-    height: 100px;
-    letter-spacing: 2px;
-    justify-content: space-between;
-}
-footer > div{
-    width: 100%;
     max-width: 1500px;
+    width: 100%;
     margin: 0 auto;
-    display: flex;
-    align-items: center;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
     border-top: 1px solid rgb(201, 197, 197);
 }
+footer .btm-ft div{
+    margin: 30px 0px;
+}
+footer .icon-box{
+    display: flex;
+    justify-content: center;
+}
+footer .icon-ft{
+    display: flex;
+    margin: 0px 20px;
+
+}
+footer .icon-ft li{
+    font-size: 12px;
+    text-align: center;
+    padding: 0px 1px;
+}
+
 .main-visual{width:100%; max-width:1500px; margin: 0 auto;}
 
 .cat-size{
@@ -118,6 +133,23 @@ footer > div{
 .skill-box{
     text-align: center;
     padding: 50px;
+}
+.skill-detail{
+    display: flex;
+    justify-content: center;
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+}
+.skill-detail li{
+    width: 20%;
+    height: 100%;
+    background: #fff;
+    overflow: hidden;
+    margin: 50px;
+    box-shadow: 5px 5px 5px 1px #999999;
+    border-radius: 10px;
+    border: 1px solid #eee;
 }
 
 .project-box{

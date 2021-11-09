@@ -24,6 +24,11 @@ header > div > div > nav > ul {
     flex-direction: column;
 }
 
+.skill-detail li{
+    margin: 7px;
+    width: 33%;
+}
+
 .project-detail{    
     flex-direction: column;
 }
