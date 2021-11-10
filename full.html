@@ -1,0 +1,111 @@
+<?php include('./page/header.html');?>
+
+<link rel="stylesheet" type="text/css" href="/web/07/js/full/fullpage.css" />
+
+<style>
+    header {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    background: #fff;
+}
+
+</style>
+<body>
+    <div id="fullpage">
+        <div class="section" id="section0">
+            <div class="about-box">
+                <div class="cat-size">
+                    <h1>ABOUT</h1>
+                </div>
+                <div>
+                    <ul class="about-detail">
+                        <li>
+                            <div>
+                                <h5><i class="fas fa-graduation-cap"></i> 학력</h5>
+                                <i>2013.03~2016.02</i>
+                                <p>와룡고등학교</p>
+                                <i>2016.03~2021.02</i>
+                                <p>영남대학교 정보통신공학과</p>
+                                <i>2021.09~2022.02</i>
+                                <p>휴스타 혁신아카데미 4기 수료</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <h5><i class="fas fa-book"></i> 자격증</h5>
+                                <p>정보처리기사</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="about-detail">
+                        <li>
+                            <div>
+                            <h5><i class="fas fa-address-card"></i> 프로젝트</h5>
+                            <i>2019.12~2020.01</i>
+                            <p>스마트폰을 활용한 일산화탄소 경보기 개발</p>
+                            <i>2021.09</i>
+                            <p>Jetsonnano 활용 - 스쿼트 개수측정 서비스 개발</p>
+                            <i>2021.10</i>
+                            <p>Android studio 활용 - 버스킹 어플리케이션 개발</p>         
+                        </div>   
+                        </li>
+                        <li>
+                            <div>
+                            <h5><i class="fas fa-award"></i> 수상경력</h5>
+                            <i>2019.11.30</i>
+                            <p>DCU SW 아이디어톤 입상</p>
+                            <i>2020.01.10</i>
+                            <p>기계IT대학 IoT 경진대회 최우수상</p>
+                        </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+    
+            </div>
+        </div>
+        <div class="section active" id="section1">
+            <div class="slide" id="slide1">
+                <div class="intro">
+                    <h1>Slide 2.1</h1>
+                    <iframe data-src="auto-height.html"></iframe>
+                </div>
+            </div>
+            <div class="slide active" id="slide2">
+                <div class="intro">
+                    <h1>Slide 2.2</h1>
+                    <p>
+                        We are using the class `active` on this section and in this particular horizontal slide. This way it will appear on the viewport on page load, instead of the 1st section 1st slide.
+                    </p>
+                    <p>You can apply the same logic to horizontal slides</p>
+                </div>
+            </div>
+            <div class="slide" id="slide3">
+                <h1>Slide 2.3</h1>
+            </div>
+    
+        </div>
+        <div class="section" id="section2">
+            <div class="intro">
+                <h1>Section 3</h1>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+
+<script type="text/javascript" src="/web/07/js/full/fullpage.js"></script>
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        sectionsColor: ['#ece9e9', '#fff', '#fff', 'whitesmoke', '#ccddff'],
+        anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+        menu: '#menu',
+        lazyLoad: true
+    });
+</script>
+<?php include('./page/footer.html');?>
